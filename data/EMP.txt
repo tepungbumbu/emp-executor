@@ -1,0 +1,67 @@
+{
+"emp\_header": {
+"emp\_version": "1.0",
+"emp\_type": "Blockchain Settlement Payload",
+"created\_at": "2025-07-18T10:17:49Z",
+"swift\_message\_reference": "DUMMY-SWIFT-REF-123456"
+},
+"swift\_transaction\_details": {
+"transaction\_reference": "DUMMY-TX-7890123456",
+"value\_date": "2025-07-18",
+"base\_currency": "EUR",
+"base\_amount": "1000.00",
+"converted\_currency": "USDT",
+"converted\_amount": "1080.00",
+"exchange\_rate\_applied": "1.08",
+"conversion\_rate": "0.27",
+"ordering\_customer": {
+"name": "DUMMY COMPANY LTD",
+"address": "123 FAKE STREET, LONDON, UK",
+"account\_number": "00011122",
+"bank": {
+"name": "DUMMY BANK PLC",
+"bic": "DUMMYGB22XXX"
+}
+},
+"beneficiary\_customer": {
+"name": "PT. CONTOH INDONESIA",
+"address": "JL. CONTOH NOMOR 1, JAKARTA",
+"account\_number": "0001223344",
+"bank": {
+"name": "BANK CONTOH INDONESIA",
+"bic": "CONTOHIDJXXX"
+}
+},
+"remittance\_information": "DUMMY PAYMENT ONLY"
+},
+"blockchain\_execution": {
+"erc20\_recipient\_address": "0x1111111111111111111111111111111111111111",
+"tron\_final\_wallet": "TTESTTRONADDRESS000000000000000000000",
+"usdt\_transfer\_amount": "1080.00",
+"nonce": "0x01",
+"gasPrice": "0x09184e72a000",
+"gasLimit": "0x5208",
+"chainId": "11155111",
+"raw\_transaction\_hex": "0xDEADBEEF"  // <-- dummy hex, replace for actual test
+},
+"authorization": {
+"api\_endpoint": "[https://dummy-api.blockchain.com/tx](https://dummy-api.blockchain.com/tx)",
+"apikey": "DUMMY-API-KEY",
+"private\_key": "DUMMY-PRIVATE-KEY",
+"signed\_by": "0x1111111111111111111111111111111111111111"
+},
+"security\_details": {
+"encryption\_algorithm": "RSA-2048",
+"hash\_function": "SHA-256",
+"signature\_algorithm": "DUMMY-SIGNATURE",
+"key\_management\_service": "DUMMY VAULT"
+},
+"global\_server\_details": {
+"server\_id": "DUMMY-SERVER-ID",
+"server\_location": "DUMMY LOCATION",
+"server\_ip": "0.0.0.0",
+"software\_version": "DUMMY-VERSION",
+"time\_prepared": "2025-07-18T10:17:49Z",
+"time\_validated": "2025-07-18T10:37:52Z"
+}
+}
